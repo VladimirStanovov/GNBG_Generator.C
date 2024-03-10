@@ -399,7 +399,7 @@ void GNBG::initialize_component_sigma()
 }
 void GNBG::initialize_component_H()
 {
-    int H_pattern = 4;
+    int H_pattern = 3;
     /*(1) Condition number is 1 and all elements of principal diagonal of H are set to a user defined value H_value
       (2) Condition number is 1 for all components but the elements of principal diagonal of H are different from a component to another and are randomly generated with uniform distribution within the range [Lb_H, Ub_H].
       (3) Condition number is random for all components the values of principal diagonal of the matrix H for each component are generated randomly within the range [Lb_H, Ub_H] using a uniform distribution.
