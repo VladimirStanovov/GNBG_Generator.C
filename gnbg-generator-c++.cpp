@@ -975,6 +975,7 @@ int main()
     {
         GNBG gnbg;
         gnbg.Init();
+        gnbg.save_to_file("func.txt");
         Optimizer Opt(100,gnbg);
         Opt.Run(gnbg);
         char buffer[100];
